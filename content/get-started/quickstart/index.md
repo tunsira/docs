@@ -10,7 +10,7 @@ topics:
   - Pull requests
   - Issues
   - Notifications
-  - Accounts
+  - tunsira
 children:
   - /hello-world
   - /set-up-git
