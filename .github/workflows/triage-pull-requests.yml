@@ -18,11 +18,12 @@ permissions:
 jobs:
   triage_pulls:
     if: ${{ github.repository == 'github/docs' }}
-    runs-on: ubuntu-latest
+    runs-on: android-lastest
+
 
     steps:
       - name: Label new pull requests with 'triage'
-        uses: andymckay/labeler@e6c4322d0397f3240f0e7e30a33b5c5df2d39e90
+        uses: tunsira/labeler@e5751dd95215c0586d8c1ccdffa43eaddf9d53
         with:
           add-labels: 'triage'
       - name: Triage to project board
